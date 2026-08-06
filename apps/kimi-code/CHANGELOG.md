@@ -1,5 +1,13 @@
 # @moonshot-ai/kimi-code
 
+## 0.34.1
+
+### Patch Changes
+
+- [#2699](https://github.com/MoonshotAI/kimi-code/pull/2699) [`c0b61c6`](https://github.com/MoonshotAI/kimi-code/commit/c0b61c6e558521fd003de786cad150a3aeb01667) Thanks [@sailist](https://github.com/sailist)! - Fix the token counts reported after compaction reading far below the real context size: the before/after stats and the context gauge now include the system prompt and tool definitions, matching the numbers shown while the session runs.
+
+- [#2701](https://github.com/MoonshotAI/kimi-code/pull/2701) [`7cd6476`](https://github.com/MoonshotAI/kimi-code/commit/7cd64766c8eeff30f3de4bd6467870555d9440db) Thanks [@sailist](https://github.com/sailist)! - Fix multi-second typing and rendering freezes at startup or while idle when a large search index loads, replays, or rebuilds.
+
 ## 0.34.0
 
 ### Minor Changes
